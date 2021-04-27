@@ -8,8 +8,13 @@ import (
 func lenAndUpper(name string) (int, string) {
 	return len(name), strings.ToUpper(name)
 }
+
+func repeatMe(words ...string) {
+	fmt.Println(words)
+}
+
 func main() {
-	totalLength, upperName := lenAndUpper("geonil jang")
-	fmt.Println(totalLength, upperName)
+
+	repeatMe("gi", "jig", "gg")
 
 }
