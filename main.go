@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello Go")
+
+	var name string = "geonil jang"
+	name = "jgi"
+
+	fmt.Println(name)
+
 }
